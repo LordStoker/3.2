@@ -7,7 +7,7 @@ public class vocal_o_consonante {
         char letra = scanner.next().charAt(0);
         letra = Character.toLowerCase(letra);
 
-        if (letra == 'a') {
+        /*if (letra == 'a') {
             System.out.println("La letra " + letra + " es una vocal.");
         }
         else if (letra == 'e') {
@@ -24,8 +24,13 @@ public class vocal_o_consonante {
         } 
         else {
             System.out.println("La letra " + letra + " es consonante.");
+        }*/
+        if (letra == 'a' | letra == 'e' | letra == 'i' |letra == 'o' |letra == 'u') {
+            System.out.println("La letra " + letra + " es una vocal.");
         }
-
+        else{
+            System.out.println("La letra " + letra + " es una consonante.");
+        }
         scanner.close();
     }
 
