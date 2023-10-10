@@ -20,7 +20,7 @@ public class primo_con_while {
                 i++;
             }
             if (esPrimo == true) {
-                System.out.println("El número " + num + " es primo");
+                System.out.println("El número " + num + " es primo.");
             } else {
                 System.out.println("El número " + num + " no es primo");
             }
